@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2b2c28;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.title-wrapper__heading {
+  color: #7de2d1;
+  font-size: 10vw;
+  margin: 0;
+}
+.title-wrapper__para {
+  color: #fffafb;
+  font-size: 3vw;
+}
+
+.searchBar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  height: 25px;
+  background-color: #7de2d1;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.searchBar__input {
+  width: 45vw;
+  all: unset;
+  color: #2b2c28;
+}
+
+.searchBar__button {
+  all: unset;
+  width: 4vw;
+  height: 25px;
+  border-radius: 10px;
+  background-color: darkgray;
+}
+
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  margin-top: 10vw;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #7de2d1;
+  margin: 15px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 200px;
+  height: 250px;
+}
+.book__img {
+  height: 125px;
+  width: 100px;
+}
+.book__text {
+  text-align: center;
+  margin: 0;
+}
+.book__link {
+  all: unset;
+  border: 2px solid #2b2c28;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+}

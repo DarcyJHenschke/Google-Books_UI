@@ -1,0 +1,105 @@
+@use "./_partials/palette";
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: palette.$primary-color;
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+
+    &__heading {
+        color: palette.$secondary-color;
+        font-size: 10vw;
+        margin: 0;
+    }
+    &__para {
+        color: palette.$tertiary-color;
+        font-size: 3vw;
+    }
+}
+
+.searchBar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 25px;
+
+    background-color: palette.$secondary-color;
+
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.searchBar__input {
+    width: 45vw;
+    all: unset;
+    color: palette.$primary-color;
+}
+
+.searchBar__button {
+    all: unset;
+    width: 4vw;
+    height: 25px;
+
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 95vw;
+    margin-top: 10vw;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: palette.$secondary-color;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 10px;
+
+    width: 200px;
+    height: 250px;
+
+    &__img {
+        height: 125px;
+        width: 100px;
+    }
+    &__text {
+        text-align: center;
+        margin: 0;
+    }
+
+    &__link {
+        all: unset;
+        border: 2px solid palette.$primary-color;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+    }
+}

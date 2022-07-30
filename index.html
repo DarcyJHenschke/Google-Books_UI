@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width='device-width', initial-scale=1.0"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap"
+            rel="stylesheet"
+        />
+        <title>Google Books UI</title>
+    </head>
+    <body>
+        <div class="page">
+            <div class="title-wrapper">
+                <h1 class="title-wrapper__heading">Librarian</h1>
+                <p class="title-wrapper__para">Book search made easy</p>
+            </div>
+            <div class="searchBar">
+                <form class="form">
+                    <div class="searchBar__wrapper">
+                        <input
+                            class="searchBar__input"
+                            type="text"
+                            placeholder="Search by title or author"
+                        />
+                        <button
+                            class="searchBar__button"
+                            type="submit"
+                        ></button>
+                    </div>
+                </form>
+            </div>
+            <div class="book-grid"></div>
+        </div>
+    </body>
+    <script type="module" src="./scripts/api.js"></script>
+</html>
