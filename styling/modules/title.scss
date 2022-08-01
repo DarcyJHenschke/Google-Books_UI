@@ -1,0 +1,42 @@
+@use "./../_partials/palette";
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: palette.$primary-color;
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vw;
+    margin-bottom: 10vh;
+
+    &__active {
+        margin-top: auto;
+    }
+
+    &__heading {
+        color: palette.$secondary-color;
+        font-size: 10vw;
+        margin: 0;
+    }
+    &__para {
+        color: palette.$tertiary-color;
+        font-size: 3vw;
+    }
+}

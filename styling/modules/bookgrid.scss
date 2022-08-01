@@ -1,0 +1,18 @@
+@use "./../_partials/palette";
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 95vw;
+    margin-top: 10vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    &__active {
+        border-radius: 20px;
+        background-color: palette.$secondary-color;
+    }
+}

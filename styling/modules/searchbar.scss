@@ -1,0 +1,36 @@
+@use "./../_partials/palette";
+
+.searchBar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+
+    background-color: palette.$secondary-color;
+
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.searchBar__input {
+    width: 45vw;
+    all: unset;
+    color: palette.$primary-color;
+}
+
+.searchBar__button {
+    all: unset;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: darkgray;
+    &:hover {
+        background-color: lightgray;
+    }
+    &:active {
+        background-color: lightgoldenrodyellow;
+    }
+}
