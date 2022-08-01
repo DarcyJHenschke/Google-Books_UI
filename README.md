@@ -33,7 +33,9 @@ The requirements/deliverables of this Google API project are as follows:
 
 ## Setup
 
-Click here to access live demo of application
+Click here to access live demo of application:
+
+🔗 [Live Demo](https://darcyjhenschke.github.io/Google-Books_UI/)
 
 ## Approach
 
@@ -62,3 +64,4 @@ The thing I struggled with the most was identifying a good way to convert the da
 -   Add a drop down list which changes the number of books returned for the query.
 -   Give feedback when a invalid query is parsed.
 -   Add more animations/features to reduce the staticity of the page.
+-   Clean up SCSS
