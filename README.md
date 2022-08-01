@@ -17,7 +17,7 @@ The requirements/deliverables of this Google API project are as follows:
 
 <figure>
 <figcaption><i>Home Page</i></figcaption>
-<img src="./assets/home.png" width="500px" alt="Home Page" />
+<img src="./assets/Home.png" width="500px" alt="Home Page" />
 </figure>
 
 <figure>
